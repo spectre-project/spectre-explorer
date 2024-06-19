@@ -211,7 +211,7 @@ const AddressInfo = () => {
                     })
         })
             .catch(ex => {
-                console.log("nicht eroflgreich", ex)
+                console.log("nicht erfolgreich", ex)
                 setLoadingTxs(false);
             })
     }
